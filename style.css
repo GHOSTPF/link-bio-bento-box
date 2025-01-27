@@ -108,11 +108,12 @@ a {
 }
 
 .img-user {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 74px;
     border-radius: 8px;
-    border: 2px solid var(--color-green);
+    border: 2px solid white;
 }
+
 
 .name-user h1 {
     font-size: 1.2rem;
@@ -161,10 +162,16 @@ a {
 }
 
 .destaque {
-    color: var(--color-green);
+    color: gray;
     font-weight: bold;
     font-size: 1rem;
     padding-bottom: 0.3rem;
+}
+
+.tailwind {
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s;
 }
 
 .skills-icons {
@@ -187,6 +194,10 @@ a {
 /* Cores específicas para cada ícone */
 .skills-icons .fa-html5:hover {
     color: #e34f26;
+}
+
+.skills-icons .tailwind:hover {
+    color: #22c7fa;
 }
 
 .skills-icons .fa-css3-alt:hover {
@@ -213,8 +224,8 @@ a {
     color: #777bb4;
 }
 
-.skills-icons .fa-java:hover {
-    color: #007396;
+.skills-icons .native:hover {
+    color: #000a96;
 }
 
 .skills-icons .fa-github:hover {
@@ -244,12 +255,12 @@ a {
     border-radius: 12px;
     background-color: var(--color-black);
     width: 50%;
-    height: 100%;
+    height: 150%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
+    padding: 2rem;
     gap: 0.8rem;
 }
 
@@ -273,9 +284,9 @@ a {
 }
 
 .img-tread {
-    width: 100%;
-    height: 100px;
-    background-image: url(/img/tread-skateboard.jpg);
+    width: 140%;
+    height: 120px;
+    background-image: url(/img/foto.jpeg);
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -313,8 +324,8 @@ a {
     color: var(--color-white);
 }
 
-.redes-sociais .tiktok:hover i {
-    color: #000;
+.redes-sociais .whatsapp:hover i {
+    color: #34f71b;
     transition: color 0.3s;
 }
 
@@ -337,12 +348,12 @@ a {
 .widget4 {
     width: 100%;
     height: 16%;
-    background-color: var(--color-green);
+    background-color: gray;
     border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--color-black);
+    color: #4CAF50;
     padding: 1rem;
 }
 
@@ -363,7 +374,7 @@ a {
 .meu-site h1 {
     font-weight: bold;
     font-size: 1.2rem;
-    color: var(--color-black);
+    color: white
 }
 
 /****************** WIDGET 5 */
